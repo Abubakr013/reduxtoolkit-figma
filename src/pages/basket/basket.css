@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.basket {
+  width: 100%;
+  padding: 60px;
+}
+
+.basket-container {
+  width: 55%;
+  border: 1px solid #e5e5e5;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.basket-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px;
+}
+
+.basket-card:not(:last-child) {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.basket-card_about {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.basket-card_about img {
+  width: 120px;
+  height: 130px;
+  object-fit: contain;
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.basket-card_text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.basket-card_text h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+
+.basket-card_text p {
+  font-size: 18px;
+  color: #666;
+}
+
+.basket-card_text h1 {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+}
+
+.basket-card_buttons {
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ff3333;
+  font-size: 23px;
+}
+
+.incdec {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 25px;
+  background: #f5f5f5;
+  border-radius: 50px;
+}
+
+.incdec button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.incdec span {
+  font-size: 18px;
+  font-weight: 500;
+  min-width: 30px;
+  text-align: center;
+}

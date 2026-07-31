@@ -1,0 +1,146 @@
+.footer {
+  background: #f2f0f1;
+  margin-top: 170px;
+  padding: 0 0 40px;
+}
+
+.newsletter {
+  max-width: 1240px;
+  margin: auto;
+  transform: translateY(-90px);
+
+  background: #000;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 40px 60px;
+}
+
+.newsletter-left h2 {
+  color: #fff;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 900;
+  max-width: 520px;
+}
+
+.newsletter-right {
+  width: 360px;
+}
+
+.email-box {
+  width: 100%;
+  height: 48px;
+  background: #fff;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+
+  padding: 0 18px;
+  margin-bottom: 14px;
+}
+
+.email-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.email-box svg {
+  color: #999;
+}
+
+.newsletter button {
+  width: 100%;
+  height: 48px;
+  border: none;
+  border-radius: 30px;
+  background: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.footer-content {
+  max-width: 1240px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 2fr repeat(4, 1fr);
+  gap: 60px;
+}
+
+.footer-brand h1 {
+  font-size: 34px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.footer-brand p {
+  color: #666;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.social-icons div {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.footer-links a {
+  color: #666;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+
+.footer-bottom {
+  max-width: 1240px;
+  margin: 50px auto 0;
+  padding-top: 25px;
+
+  border-top: 1px solid #ddd;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.payments {
+  display: flex;
+  gap: 7px;
+}
+
+.payments img {
+  width: 80px;
+  height: 60px;
+}
