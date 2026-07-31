@@ -1,7 +1,7 @@
 import "./home.css";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { productsFetch } from "../../features/basketThunk";
+import { productsFetch } from "../../features/BasketThunk";
 
 function Home() {
   const dispatch = useDispatch();
