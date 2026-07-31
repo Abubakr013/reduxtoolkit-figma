@@ -1,12 +1,12 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
-import {gettingProducts} from "../api/productsApi"
+import {productsApi} from "../api/productsApi"
 
 export const productsFetch = createAsyncThunk(
   "products/productsFetch",
 
   async (arg, thunkAPI) => {
     try {
-      const response = await gettingProducts.getAll();
+      const response = await productsApi.getAll();
 
       return response.data.products;
     } catch (error) {
