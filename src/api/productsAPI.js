@@ -1,6 +1,6 @@
 import { api } from "./api";
 
-export const productsAPI = {
+export const ProductsAPI = {
   getAll: () => api.get("/products"),
 
   // delete: (id) => api.delete(`/products/${id}`)
