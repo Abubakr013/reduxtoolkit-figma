@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { productsFetch } from "./BasketThunk.js";
+import { productsFetch } from "./basketThunk.js";
 
 const initialState = {
   products: [],
